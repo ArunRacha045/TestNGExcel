@@ -8,28 +8,45 @@
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.15.0</version>
-</dependency>
-<dependency>
+    </dependency>
+    <dependency>
 	<groupId>io.github.bonigarcia</groupId>
 	<artifactId>webdrivermanager</artifactId>
 	<version>5.6.2</version>
 	</dependency>
-<dependency>
+    <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
     <version>5.2.4</version>
-</dependency>
-  </dependencies>
+    </dependency>
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.10.2</version>
+        <scope>test</scope>
+    </dependency>
+    
+</dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
+        <version>3.13.0</version>
         <configuration>
           <release>17</release>
         </configuration>
       </plugin>
+      <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.5.2</version>
+    <configuration>
+		<suiteXmlFiles>
+			<suiteXmlFile>testng.xml</suiteXmlFile>
+		</suiteXmlFiles>
+	</configuration>
+    </plugin>
     </plugins>
   </build>
 </project>

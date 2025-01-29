@@ -2,12 +2,12 @@
 <testng-results ignored="4" total="6" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-08T18:59:08 PST" name="Suite" finished-at="2025-01-08T18:59:46 PST" duration-ms="38476">
+  <suite started-at="2025-01-28T20:39:38 PST" name="Suite" finished-at="2025-01-28T20:40:13 PST" duration-ms="34981">
     <groups>
     </groups>
-    <test started-at="2025-01-08T18:59:08 PST" name="Test2" finished-at="2025-01-08T18:59:46 PST" duration-ms="38476">
+    <test started-at="2025-01-28T20:39:38 PST" name="Test2" finished-at="2025-01-28T20:40:13 PST" duration-ms="34981">
       <class name="TestCases.LoginPageScenario">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPageScenario@73e9cf30]" started-at="2025-01-08T18:59:08 PST" name="setUp" finished-at="2025-01-08T18:59:32 PST" duration-ms="23543" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPageScenario@60bd273d]" started-at="2025-01-28T20:39:38 PST" name="setUp" finished-at="2025-01-28T20:39:59 PST" duration-ms="20998" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,29 +23,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyModalClass()[pri:0, instance:TestCases.LoginPageScenario@73e9cf30]" started-at="2025-01-08T18:59:32 PST" name="VerifyModalClass" finished-at="2025-01-08T18:59:41 PST" duration-ms="9634" status="FAIL">
+        <test-method signature="VerifyModalClass()[pri:0, instance:TestCases.LoginPageScenario@60bd273d]" started-at="2025-01-28T20:39:59 PST" name="VerifyModalClass" finished-at="2025-01-28T20:40:10 PST" duration-ms="11181" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <button id="showSmallModal" type="button" class="mr-4 mt-2 btn btn-primary">...</button> is not clickable at point (415, 572). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.205)
+              <![CDATA[element click intercepted: Element <button id="showSmallModal" type="button" class="mr-4 mt-2 btn btn-primary">...</button> is not clickable at point (415, 563). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
+  (Session info: chrome=132.0.6834.111)
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [89d25553dbbebb4ddf705f617bbf4ab7, clickElement {id=f.F15C7023F8F18857EDA009419A597A9F.d.5E205CAA29E3CAE5A106220404C5CD4C.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\shilp\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53182/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (89d25553dbbebb4ddf705f617bbf4ab7)] -> id: showSmallModal]
-Session ID: 89d25553dbbebb4ddf705f617bbf4ab7]]>
+Command: [2095d0ec0eb6c98fdda125ac6937afac, clickElement {id=f.5A389879E35987339CAF8C61BA7FE6D9.d.E2882A3C1D97A1D2E30B1D4FE317F3F6.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\shilp\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50087/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2095d0ec0eb6c98fdda125ac6937afac)] -> id: showSmallModal]
+Session ID: 2095d0ec0eb6c98fdda125ac6937afac]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="showSmallModal" type="button" class="mr-4 mt-2 btn btn-primary">...</button> is not clickable at point (415, 572). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
-  (Session info: chrome=131.0.6778.205)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="showSmallModal" type="button" class="mr-4 mt-2 btn btn-primary">...</button> is not clickable at point (415, 563). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
+  (Session info: chrome=132.0.6834.111)
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [89d25553dbbebb4ddf705f617bbf4ab7, clickElement {id=f.F15C7023F8F18857EDA009419A597A9F.d.5E205CAA29E3CAE5A106220404C5CD4C.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\shilp\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53182/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (89d25553dbbebb4ddf705f617bbf4ab7)] -> id: showSmallModal]
-Session ID: 89d25553dbbebb4ddf705f617bbf4ab7
+Command: [2095d0ec0eb6c98fdda125ac6937afac, clickElement {id=f.5A389879E35987339CAF8C61BA7FE6D9.d.E2882A3C1D97A1D2E30B1D4FE317F3F6.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\shilp\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50087}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50087/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2095d0ec0eb6c98fdda125ac6937afac)] -> id: showSmallModal]
+Session ID: 2095d0ec0eb6c98fdda125ac6937afac
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -95,11 +95,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyModalClass -->
-        <test-method signature="verifyNewTab()[pri:0, instance:TestCases.LoginPageScenario@73e9cf30]" started-at="2025-01-08T18:59:41 PST" name="verifyNewTab" finished-at="2025-01-08T18:59:45 PST" duration-ms="3351" status="PASS">
+        <test-method signature="verifyNewTab()[pri:0, instance:TestCases.LoginPageScenario@60bd273d]" started-at="2025-01-28T20:40:10 PST" name="verifyNewTab" finished-at="2025-01-28T20:40:12 PST" duration-ms="2129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginPageScenario@73e9cf30]" started-at="2025-01-08T18:59:45 PST" name="tearDown" finished-at="2025-01-08T18:59:46 PST" duration-ms="1864" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginPageScenario@60bd273d]" started-at="2025-01-28T20:40:12 PST" name="tearDown" finished-at="2025-01-28T20:40:13 PST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
